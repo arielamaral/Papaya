@@ -47,7 +47,7 @@
 
     <string name="gallery_games_error_game_launch_failed_title">Não foi possível iniciar o jogo</string>
     <string name="gallery_games_error_game_launch_failed_app_not_found">Falha ao iniciar \"%1$s\". Verifique se o App está instalado e habilitado.</string>
-    <string name="gallery_games_error_game_launch_failed_generic">Falha ao iniciar \"%1$s\" por uma razão desconhecida:\n%2$s</string>
+    <string name="gallery_games_error_game_launch_failed_generic">Falha ao iniciar \"%1$s\" por alguma razão desconhecida:\n%2$s</string>
     <string name="gallery_games_error_app_launch_failed_title">Não foi possível iniciar o App</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
@@ -68,10 +68,10 @@
     <string name="platform_configuration_general_loading_read_game_files_title">Procurando arquivos de jogos</string>
     <string name="platform_configuration_general_loading_read_game_files_description_reading_files">Lendo arquivo %1$s</string>
     <string name="platform_configuration_general_loading_read_game_files_sub_description_reading_files">Encontrados: %1$s</string>
-    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Preparando visualização da árvore de arquivos</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Preparando visualização de arquivos</string>
     <string name="platform_configuration_general_saving">@string/common_saving</string>
-    <string name="platform_configuration_general_exit_warning_dialog_title">Sair do configurador de plataforma?</string>
-    <string name="platform_configuration_general_exit_warning_dialog_text">Todas as configurações feitas serão perdidas.\nSe você queria apenas voltar uma etapa, use o botão &lt;.</string>
+    <string name="platform_configuration_general_exit_warning_dialog_title">Sair da configuração da plataforma?</string>
+    <string name="platform_configuration_general_exit_warning_dialog_text">Todas as configurações feitas serão perdidas.\nSe você deseja apenas voltar uma etapa, use o botão &lt;.</string>
     <string name="platform_configuration_general_exit_warning_dialog_confirm">Sair e descartar configuração</string>
     <string name="platform_configuration_general_exit_warning_dialog_dismiss">@string/common_cancel</string>
     <string name="platform_configuration_general_content_description_previous_step">Etapa anterior</string>
@@ -98,14 +98,14 @@
 
     <!-- Platform configuration - Folders selection step -->
     <string name="platform_configuration_folders_selection_title">Pastas</string>
-    <string name="platform_configuration_folders_selection_description">Adicione as pastas que contêm seus arquivos de jogos</string>
+    <string name="platform_configuration_folders_selection_description">Adicione as pastas que contêm seus jogos</string>
     <string name="platform_configuration_folders_selection_cta_add_folder">Adicionar pasta</string>
 
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">Arquivos de jogos</string>
-    <string name="platform_configuration_game_files_selection_description">Selecione seus arquivos de jogos</string>
+    <string name="platform_configuration_game_files_selection_description">Selecione seus jogos</string>
     <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Arquivo de jogo</string>
-    <string name="platform_configuration_game_files_selection_error_no_files_title">Nenhum arquivo de jogo encontrado nestas pastas</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_title">Nenhum jogo encontrado nesta pasta</string>
     <string name="platform_configuration_game_files_selection_error_no_files_description">Selecione uma pasta que contenha arquivos dos tipos: %1$s.</string>
 
     <!-- Platform configuration - Game emulator matching step -->
@@ -143,7 +143,7 @@
     <string name="platform_configuration_summary_steps_left">Etapa %1$d de %2$d</string>
 
     <!-- Item options - General -->
-    <string name="item_options_loading_title">Carregando opções do item</string>
+    <string name="item_options_loading_title">Carregando opções</string>
     <string name="item_options_saving_title">@string/common_saving</string>
 
     <!-- Item options - Key hints -->
@@ -160,7 +160,7 @@
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
     <string name="item_options_app_menu_error_launch_app_settings_title">Não foi possível abrir as configurações</string>
     <string name="item_options_app_menu_error_launch_app_settings_message_app_not_found">Falha ao abrir as configurações do App. Verifique se o App de Configurações está habilitado.</string>
-    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Falha ao abrir as configurações do App por uma razão desconhecida:\n%1$s</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Falha ao abrir as configurações do App por alguma razão desconhecida:\n%1$s</string>
 
     <!-- Item options - Game file -->
     <string name="item_options_game_file_menu_option_launch_game">Iniciar jogo</string>
@@ -183,13 +183,13 @@
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
-    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Iniciar App de streaming de jogos</string>
+    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Iniciar App de streaming</string>
     <string name="item_options_streaming_game_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
-    <string name="item_options_streaming_game_menu_option_unpin">Desafixar jogo</string>
+    <string name="item_options_streaming_game_menu_option_unpin">Desfixar jogo</string>
     <string name="item_options_streaming_game_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
-    <string name="item_options_streaming_game_warning_dialog_unpin_title">Desafixar \"%1$s\"?</string>
-    <string name="item_options_streaming_game_warning_dialog_unpin_text">O atalho do jogo não será mais exibido em sua coleção. Você pode reverter isso a qualquer momento criando um atalho no app de streaming de jogos.</string>
-    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Desafixar jogo</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_title">Desfixar \"%1$s\"?</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_text">O atalho do jogo não será mais exibido em sua coleção. Você pode reverter isso a qualquer momento criando um atalho no app de streaming.</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Desfixar jogo</string>
     <string name="item_options_streaming_game_warning_dialog_unpin_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Scrape -->
@@ -244,9 +244,9 @@
 
     <!-- Settings - Platform edit -->
     <string name="settings_platform_edit_loading_config">Carregando configuração</string>
-    <string name="settings_platform_edit_loading_prepare_reading_files">Preparando para ler os arquivos de jogos</string>
-    <string name="settings_platform_edit_loading_reading_files">Lendo arquivos de jogos</string>
-    <string name="settings_platform_edit_loading_reading_more_files">Lendo mais arquivos de jogos</string>
+    <string name="settings_platform_edit_loading_prepare_reading_files">Preparando para ler os arquivos</string>
+    <string name="settings_platform_edit_loading_reading_files">Lendo arquivos</string>
+    <string name="settings_platform_edit_loading_reading_more_files">Lendo mais arquivos</string>
     <string name="settings_platform_edit_loading_setting_up_menu">Configurando a estrutura do menu</string>
     <string name="settings_platform_edit_title_saving">@string/common_saving</string>
     <string name="settings_platform_edit_warning_dialog_exit_title">Sair do editor de plataforma?</string>
@@ -257,7 +257,7 @@
     <string name="settings_platform_edit_cta_save_information_no_game_apps">Selecione pelo menos um app de jogo para salvar a configuração modificada</string>
     <string name="settings_platform_edit_cta_save_information_no_emulator_apps">Selecione pelo menos um app de emulador para salvar a configuração modificada</string>
     <string name="settings_platform_edit_cta_save_information_no_folder">Adicione pelo menos uma pasta para salvar a configuração modificada</string>
-    <string name="settings_platform_edit_cta_save_information_no_game_files">Selecione pelo menos um arquivo de jogo para salvar a configuração modificada</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_files">Selecione pelo menos um jogo para salvar a configuração modificada</string>
 
     <!-- Settings - Appearance -->
     <string name="settings_appearance_menu_title">@string/settings_main_menu_menu_option_appearance</string>
@@ -324,7 +324,7 @@
     <string name="settings_custom_emulator_app_section_parameter_type_title">Tipo de parâmetro</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_file">Arquivo de jogo</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID do jogo</string>
-    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Geralmente Emuladores querem ser apontados diretamente para um \'Arquivo de jogo\'. Para algumas plataformas, no entanto, não há apenas um único arquivo que pode ser apontado. Nesses casos, Emuladores frequentemente fazem referência a um jogo através de um \'ID do jogo\' (por exemplo, Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Geralmente Emuladores querem ser apontados diretamente para um \'jogo\'. Para algumas plataformas, no entanto, não há apenas um único arquivo que pode ser apontado. Nesses casos, Emuladores frequentemente fazem referência a um jogo através de um \'ID do jogo\' (por exemplo, Vita3K, ScummVM).</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_title">Manipulação do ID do jogo</string>
     <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">A configuração de plataforma selecionada acima não inclui uma especificação de tipo de arquivo de ID. Você pode criar sua própria configuração de plataforma personalizada e adicionar um tipo de arquivo com uma especificação de como obter o ID do jogo. Vá para [Configurações] > [Avançado] > [Configuração de plataforma personalizada] > [Criar] para criá-la.\nVocê ainda pode continuar a configurar isso aqui e salvar. Você pode até tentar iniciar um jogo, mas provavelmente falhará porque não sei de onde obter o ID do jogo.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">A ação de intent padrão para abrir um documento é \'android.intent.action.VIEW\' que é usada pela maioria dos apps de emulação. Em casos raros, uma ação personalizada é usada: Por exemplo, para emuladores baseados em Yuzu, é \'android.nfc.action.TECH_DISCOVERED\'.</string>
