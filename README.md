@@ -16,6 +16,7 @@ How to add translations for another Locale:
 	- Translate only `<string "...">[this part]</string>` and do not modify the `name` etc
 	- Translations marked with `translatable="false"` do not need to be translated. You can remove the whole line then.
 	- `%1$s`, `%d` etc are placeholders for texts which are filled at runtime (`%1$s games` -> `PSP games`). Please keep them and place them where it makes sense in your language.
+    - Please note that certain characters need to be escaped: `'` → `\'`, `&` → `&amp;`, `<` → `&lt;`, `>` → `&gt;` etc.
 
 If you don't know how to use Git, you can also download a translation file, translate it and send it to me somewhere else. Also, don't hesistate to reach out to me if you need more information to contribute with translations. Thank you for contributing! :)
 - [mail@sebschaef.com](mailto:mail@sebschaef.com)
