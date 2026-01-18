@@ -7070,6 +7070,18 @@
       }
     },
     {
+      "packageName": "org.dolphinemu.mmjr",
+      "name": "Dolphin MMJR2 (VBI)",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "AutoStartFile",
+        "explicitActivity": "org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      }
+    },
+    {
       "packageName": "org.citra.emu",
       "name": "Citra",
       "supportedPlatforms": [
@@ -7166,6 +7178,31 @@
       "supportedPlatforms": [
         "3ds"
       ]
+    },
+    {
+      "packageName": "io.github.azaharplus.android",
+      "name": "+AzaharPlus+",
+      "supportedPlatforms": [
+        "3ds"
+      ]
+    },
+    {
+      "packageName": "io.github.mandarine3ds.mandarine",
+      "name": "Mandarine",
+      "supportedPlatforms": [
+        "3ds"
+      ]
+    },
+    {
+      "packageName": "com.panda3ds.pandroid",
+      "name": "Panda3DS",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "path",
+        "explicitActivity": "com.panda3ds.pandroid.app.GameActivity"
+      }
     },
     {
       "packageName": "info.cemu.Cemu",
