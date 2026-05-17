@@ -65,6 +65,16 @@
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numérico</string>
     <string name="gallery_games_sorting_section_all_title">Todo</string>
 
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Opções de ordenação</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Ordenar</string>
+    <string name="xmb_games_error_no_games_available">Nenhum jogo disponível</string>
+    <string name="xmb_settings_title">Configurações</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Configurações do Papaya</string>
+
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Próxima etapa</string>
     <string name="platform_configuration_key_hints_previous_step_done">Etapa anterior / Concluído</string>
@@ -113,6 +123,8 @@
     <string name="platform_configuration_folders_selection_title">Pastas</string>
     <string name="platform_configuration_folders_selection_description">Adicione as pastas que contêm seus jogos</string>
     <string name="platform_configuration_folders_selection_cta_add_folder">Adicionar pasta</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Está vendo \"Você não tem um app para fazer isso\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Isso significa que seu dispositivo não tem um app seletor de pastas pré-instalado.\nNo entanto, você pode facilmente instalar um gerenciador de arquivos que suporte a seleção de pastas. Por exemplo, \"Meus arquivos\" da PlayStore.</string>
 
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">Arquivos de jogos</string>
@@ -350,7 +362,7 @@
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Preto</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Branco</string>
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Formato dos ícones de apps</string>
-    <string name="settings_appearance_general_setting_background_style_title">Fundo &amp; estilo</string>
+    <string name="settings_appearance_general_setting_background_style_title">Fundo</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Definir Papaya como launcher</string>
     <string name="settings_appearance_general_setting_launch_display_title">Tela de inicialização padrão</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Mesma tela (revelia)</string>
@@ -366,11 +378,20 @@
     <string name="settings_appearance_general_setting_favourites_section_title">Exibir a seção "Favoritos"</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_theme_title">Tema</string>
+    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
+    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
+    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Configuração do tema</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Tipo</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Toque</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Controle</string>
     <string name="settings_appearance_layout_menu_gallery_general_title">Geral</string>
     <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Exibir barra de abas somente ao interagir</string>
     <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carrossel</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Grade</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Lista</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Preferências do carrossel</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Exibir barra de plataformas somente ao interagir</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Alinhamento</string>
@@ -383,6 +404,8 @@
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Acima da capa do jogo</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferências da grade</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Tamanho</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Usar ícones clássicos de categoria</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Layout no modo Paisagem</string>
@@ -593,18 +616,18 @@
     <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Enriquecendo sua coleção de jogos com capas bonitas e mais detalhes</string>
     <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Enriquecendo sua coleção de jogos com capas bonitas e mais detalhes</string>
     <string name="settings_about_section_attribution_subtitle_translations">Traduções</string>
-    <string name="settings_about_section_attribution_pt_br">🇧🇷 Português brasileiro por &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
-    <string name="settings_about_section_attribution_es_419">🌎 Espanhol latino-americano e caribenho também por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Português brasileiro por &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Espanhol latino-americano e caribenho também por &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Polonesa por &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_it">🇮🇹 Italiano por &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sons e ícones</string>
-    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado pelos ícones incríveis da plataforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS e SNES.</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado pelos ícones incríveis da plataforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS e SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Obrigado pelo incrível ícone de plataforma para o PICO-8! 🙏</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Sons de navegação clicky clacky</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Dá aos seus lançamentos de jogos uma sensação Retro e aos diálogos um som de aviso significativo</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Pelo ícone legal do Discord abaixo</string>
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Configuração da plataforma e do emulador</string>
-    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado por adicionar suporte a mais tipos de arquivo para diversas plataformas! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS e 3DS.</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado por adicionar suporte a mais tipos de arquivo para diversas plataformas! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS e 3DS.</string>
     <string name="settings_about_section_community_title">Comunidade</string>
     <string name="settings_about_section_community_text">Se você quiser contribuir e ajudar a moldar o futuro do Papaya, junte-se à Comunidade. E claro, você também é muito bem-vindo caso queira apenas acompanhar as novidades ou relatar algum bug!</string>
     <string name="settings_about_section_community_option_discord">Discord do Papaya</string>
@@ -654,6 +677,7 @@
     <string name="shared_ui_last_played_today">Hoje</string>
     <string name="shared_ui_last_played_yesterday">Ontem</string>
     <string name="shared_ui_last_played_days_ago">%1$s dias atrás</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Seu dispositivo não tem um app para executar esta ação</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
