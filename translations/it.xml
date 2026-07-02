@@ -280,7 +280,7 @@
     <string name="settings_platforms_content_description_move_down">Muovi giù</string>
 
     <!-- Settings - Platform options -->
-    <string name="settings_platform_options_menu_option_detect_new_games">Rileva nuovi giochi</string>
+    <string name="settings_platform_options_menu_option_detect_new_games">Rileva nuovi giochi e modifiche</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Cerca copertine mancanti e dettagli del gioco</string>
     <string name="settings_platform_options_menu_option_scrape_all">Cerca tutte le copertine e dettagli dei giochi</string>
     <string name="settings_platform_options_menu_option_appearance">Apparenza</string>
@@ -359,6 +359,10 @@
     <string name="settings_appearance_general_setting_theme_color_option_green">Verde</string>
     <string name="settings_appearance_general_setting_theme_color_option_yellow">Giallo</string>
     <string name="settings_appearance_general_setting_theme_color_option_purple">Viola</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Arancione</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Acquamarina</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Rosa</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Indaco</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_title">Colore testo su sfondo</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Auto</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Nero</string>

@@ -297,7 +297,7 @@
     <string name="settings_platforms_content_description_move_down">Przesuń w dół</string>
 
     <!-- Settings - Platform options -->
-    <string name="settings_platform_options_menu_option_detect_new_games">Wyszukaj nowe gry</string>
+    <string name="settings_platform_options_menu_option_detect_new_games">Wyszukaj nowe gry i zmiany</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Pobierz brakujące okładki i dane</string>
     <string name="settings_platform_options_menu_option_scrape_all">Pobierz wszystkie okładki i dane</string>
     <string name="settings_platform_options_menu_option_appearance">Wygląd</string>
@@ -376,6 +376,10 @@
     <string name="settings_appearance_general_setting_theme_color_option_green">Zielony</string>
     <string name="settings_appearance_general_setting_theme_color_option_yellow">Żółty</string>
     <string name="settings_appearance_general_setting_theme_color_option_purple">Fioletowy</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Pomarańczowy</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Morski</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Różowy</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Indygo</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_title">Kolor tekstu na tapecie</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automatyczny</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Czarny</string>

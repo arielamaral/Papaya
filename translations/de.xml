@@ -137,7 +137,7 @@
 
     <!-- Platform configuration - Game emulator matching step -->
     <string name="platform_configuration_game_emulator_matching_title">Spiele-Emulatoren Kombinationen</string>
-    <string name="platform_configuration_game_emulator_matching_description">Wähle spezifische Emulatoren für die jewieligen Spiele aus</string>
+    <string name="platform_configuration_game_emulator_matching_description">Wähle spezifische Emulatoren für die jeweiligen Spiele aus</string>
 
     <!-- Platform configuration - Enable notifications -->
     <string name="platform_configuration_enable_notifications_title">Benachrichtigungen erlauben?</string>
@@ -278,14 +278,14 @@
     <string name="settings_platforms_content_description_move_down">Nach unten verschieben</string>
 
     <!-- Settings - Platform options -->
-    <string name="settings_platform_options_menu_option_detect_new_games">Nach neuen Spieledateien suchen</string>
+    <string name="settings_platform_options_menu_option_detect_new_games">Nach neuen Spieledateien und Änderungen suchen</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Suche nach fehlenden Spielecovern und Informationen</string>
     <string name="settings_platform_options_menu_option_scrape_all">Suche nach allen Spielecovern und Informationen</string>
     <string name="settings_platform_options_menu_option_appearance">Erscheinungsbild</string>
     <string name="settings_platform_options_menu_option_edit">Bearbeiten</string>
     <string name="settings_platform_options_menu_option_remove">Löschen</string>
     <string name="settings_platform_options_warning_dialog_remove_title">\"%1$s\" löschen?</string>
-    <string name="settings_platform_options_warning_dialog_remove_text">Die Plattform werden entfernt. Deine Spieledateien und Apps bleiben unberührt.</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">Die Plattform wird entfernt. Deine Spieledateien und Apps bleiben unberührt.</string>
     <string name="settings_platform_options_warning_dialog_remove_confirm">Plattform löschen</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
@@ -357,6 +357,10 @@
     <string name="settings_appearance_general_setting_theme_color_option_green">Grün</string>
     <string name="settings_appearance_general_setting_theme_color_option_yellow">Gelb</string>
     <string name="settings_appearance_general_setting_theme_color_option_purple">Lila</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Orange</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Petrol</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Pink</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Indigo</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_title">Schriftfarbe über dem Hintergrundbild</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automatisch</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Schwarz</string>
@@ -450,7 +454,7 @@
     <string name="settings_config_updater_error_incompatible_schema">Das Update ist nicht kompatibel mit deiner App-Version</string>
     <string name="settings_config_updater_error_incompatible_schema_subtitle">Eventuell ist eine neue App-Version im PlayStore verfügbar</string>
     <string name="settings_config_updater_error_verification_failed">Das Update ist beschädigt</string>
-    <string name="settings_config_updater_error_installation_failed">Installtion fehlgeschlagen</string>
+    <string name="settings_config_updater_error_installation_failed">Installation fehlgeschlagen</string>
     <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
     <string name="settings_config_updater_error_subtitle_not_installed">Deine installierte Konfiguration wurde nicht verändert.</string>
 
@@ -480,11 +484,11 @@
     <string name="settings_scraper_api_key_title">%1$s API-Schlüssel</string>
     <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
     <string name="settings_scraper_api_key_save_try">Speichern &amp; testen</string>
-    <string name="settings_scraper_api_key_test_idle_label">Nach dem Speichern wirst du hier sehen ob der Schlüssel funktioniert.</string>
+    <string name="settings_scraper_api_key_test_idle_label">Nach dem Speichern wirst du hier sehen, ob der Schlüssel funktioniert.</string>
     <string name="settings_scraper_api_key_test_request_sent_label">Test-Anfrage wurde gesendet. Warte auf Antwort…</string>
     <string name="settings_scraper_api_key_test_success_label">✅ Die Test-Anfrage war erfolgreich! Dein Schlüssel funtioniert und wurde erfolgreich gespeichert.</string>
     <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Keine Internetverbindung. Dein Schlüssel wurde erfolgreich gespeichert, aber konnte nicht verifiziert werden.</string>
-    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Die Test-Anfrage ist aus einem irrelavanten Grund fehlgeschlagen. Dein Schlüssel wurde erfolgreich gespeichert, aber konnte nicht verifiziert werden.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Die Test-Anfrage ist aus einem irrelevanten Grund fehlgeschlagen. Dein Schlüssel wurde erfolgreich gespeichert, aber konnte nicht verifiziert werden.</string>
     <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ Die Test-Anfrage ist fehlgeschlagen. Der eingegebene Schlüssel scheint ungültig zu sein. Bitte stelle sicher, dass keine Zeichen fehlen. Der Schlüssel wurde dennoch abgespeichert.</string>
 
     <!-- Settings - Custom emulator apps -->
@@ -512,7 +516,6 @@
     <string name="settings_custom_emulator_app_section_platform_hint_config">Enthält beispielsweise die Informationen zu unterstützten Dateitypen. Du kannst deine eigene benutzdefinierte Konfiguration erstellen. Gehe dazu ins Menü [Einstellungen] > [Erweiterte Einstellungen] > [Benutzerdefinierte Plattformkonfigurationen] > [Plattformkonfiguration erstellen].</string>
     <string name="settings_custom_emulator_app_section_emulator_title">Emulator</string>
     <string name="settings_custom_emulator_app_section_emulator_label_app">App</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_core">Core</string>
     <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch benötigt einen Pfad zu einem Emulator-Core: Zum Beispiel \'/data/data/com.retroarch/cores/ppsspp_libretro_android.so\'.</string>
     <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Nicht spezifiziert</string>
     <string name="settings_custom_emulator_app_section_emulator_hint_activity">Die meisten Apps erwarten keine explizite Angabe einer Activity - normalerweise kannst du also die Einstellung [Nicht spezifiziert] wählen. Manche Apps erwarten aber dass Spiele über eine bestimmte Activity gestartet werden: Suche in diesem Fall nach passenden Namen wie \'EmulationActivity\'.</string>
@@ -521,7 +524,7 @@
     <string name="settings_custom_emulator_app_section_parameter_type_option_id">Spiel-ID</string>
     <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Normalerweise wollen Emulatoren direkt zu einer \'Spieldatei\' geleitet werden. Für manche Plattformen werden jedoch nicht nur einzelne Dateien verwendet - in diesen Fällen nutzen Emulatoren stattdessen oft eine \'Spiel ID\', um ein bestimmes Spiel zu referenzieren (Zum Beispiel Vita3K, ScummVM).</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_title">Umgang mit der Spiel-ID</string>
-    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Die ausgewählte Plattformkonfiguration (s.o.) enthält keinen ID-Dateitypen. Du kannst deine eigene benutzerdefinierte Plattformkonfiguration erstellen und einen solchen Dateitypen hinzufügen mit einer Spezifikation wie die ID eingelesen wird. Gehe dazu ins Menü [Einstellungen] > [Erweiterte Einstellungen] > [Benutzerdefinierte Plattformkonfigurationen] > [Plattformkonfiguration erstellen].\nDu kannst dennoch diese Konfiguration weiter bearbeiten und speichern. Du kannst sogar versuchen ein Spiel zu starten, aber es wird höchswahrscheinlich nicht funktionieren, weil ich nicht weiß woher ich die Spiele-ID bekomme.</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Die ausgewählte Plattformkonfiguration (s.o.) enthält keinen ID-Dateitypen. Du kannst deine eigene benutzerdefinierte Plattformkonfiguration erstellen und einen solchen Dateitypen hinzufügen mit einer Spezifikation wie die ID eingelesen wird. Gehe dazu ins Menü [Einstellungen] > [Erweiterte Einstellungen] > [Benutzerdefinierte Plattformkonfigurationen] > [Plattformkonfiguration erstellen].\nDu kannst dennoch diese Konfiguration weiter bearbeiten und speichern. Du kannst sogar versuchen ein Spiel zu starten, aber es wird höchswahrscheinlich nicht funktionieren, weil nicht definiert ist, woher die Spiele-ID kommt.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Die standardmäßige Intent Action um ein Dokument zu öffnen ist \'android.intent.action.VIEW\'. Diese wird auch von den meisten Emulatoren unterstützt. In seltenen Fällen wird aber eine besondere Action verwendet: Z.B. Emulatoren die auf Yuzu basieren, verwenden \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">ID-Parameter</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">ID über den DATA-Parameter übergeben</string>
@@ -549,7 +552,7 @@
     <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Keine Spiel-ID gefunden! Die Konfiguration gibt an, dass der Emulator mit einer Spiel-ID gestartet werden soll, allerdings kann ich aus dem Dateityp \'%1$s\' keine Spiel-ID auslesen. Bitte definiere in der Plattformkonfiguration wie ich die ID aus dem Dateityp auslesen kann.</string>
     <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Keine Spiel-ID gefunden! Die Konfiguration gibt an, dass der Emulator mit einer Spiel-ID gestartet werden soll. Der Typ \'%1$s\' gibt an, dass die Spiel-ID aus dem Ordnernamen gelesen werden soll. Aber es scheint, dass die Testdatei nicht in einem Ordner liegt.</string>
     <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Keine Spiel-ID gefunden! Die Konfiguration gibt an, dass der Emulator mit einer Spiel-ID gestartet werden soll. Der Typ \'%1$s\' gibt an, dass die Spiel-ID ais dem Dateiinhalt gelesen werden soll. Aber es scheint, dass die Testdatei keine ID in einem lesbaren Format enthält. Die ID sollte der einzige Inhalt der Datei sein.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Keine Spiel-ID gefunden! Die Konfiguration gibt an, dass der Emulator mit einer Spiel-ID gestartet werden soll. Der Typ \'%1$s\' gibt an, dass die Spiel-ID ais dem Dateiinhalt gelesen werden soll. Leider habe ich keinen Zugriff auf den Inhalt der Datei.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Keine Spiel-ID gefunden! Die Konfiguration gibt an, dass der Emulator mit einer Spiel-ID gestartet werden soll. Der Typ \'%1$s\' gibt an, dass die Spiel-ID aus dem Dateiinhalt gelesen werden soll. Leider kann der Inhalt der Datei nicht gelesen werden.</string>
 
 
     <!-- Settings - Custom platforms -->
@@ -598,7 +601,7 @@
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
     <string name="settings_privacy_policy_section_processed_data_title">Verarbeitete personenbezogene Daten</string>
     <string name="settings_privacy_policy_section_processed_data_text">Papaya verarbeitet Informationen über die installierten Apps auf deinem Gerät. Darüber hinaus verarbeitet Papaya, wenn du Papaya ausdrücklich Zugriff auf bestimmte Ordner auf deinem Gerät gewährst, auch Metadaten der in diesen Ordnern enthaltenen Dateien (Dateiname, Ordnername).</string>
-    <string name="settings_privacy_policy_section_data_usage_title">Wie werden deine Daten verwendet</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Wie deine Daten verwendet werden</string>
     <string name="settings_privacy_policy_section_data_usage_text">Papaya verwendet die Informationen über die installierten Apps auf deinem Gerät ausschließlich zur Anzeige der App-Listen auf dem Startbildschirm und um dich beim Einrichten von Verknüpfungen zu Spielen in diesen Apps zu unterstützen (Vorauswahl installierter Apps). Diese Daten werden nicht an Dritte weitergegeben und nur lokal auf deinem Gerät gespeichert.&lt;br&gt;&lt;br&gt;Die oben genannten Metadaten von Dateien in bestimmten Ordnern, auf die du Papaya ausdrücklich Zugriff gewährst, werden verwendet, um die Verknüpfungen zu Spielen in anderen Apps mit weiteren Informationen anzureichern: Die Datei- oder Ordnernamen können an &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; und/oder &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; gesendet werden, um mehr Details über die Spielverknüpfung zu erhalten. Solche Details umfassen Cover-Bilder, Erscheinungsdaten, Genres usw. Diese zusätzlichen Daten werden wiederum nur zur Anzeige auf deinem Startbildschirm verwendet. Bitte beachte, dass diese Datei-Metadaten möglicherweise nur an einen der vier oben genannten Dienste übermittelt werden.</string>
     <string name="settings_privacy_policy_section_managing_data_title">Verwaltung deiner personenbezogenen Daten</string>
     <string name="settings_privacy_policy_section_managing_data_text">Papaya speichert deine personenbezogenen Daten (installierte Apps, Datei-Metadaten) auf deinem Gerät. Du kannst alle deine personenbezogenen Daten über das Android-App-Einstellungsmenü löschen: Halte Papayas App-Icon gedrückt, wähle \"App-Info\", tippe auf \"Speicher &amp; Cache\" und abschließend auf \"Speicherinhalt löschen\". Hinweis: Das Deinstallieren der App entfernt deine personenbezogenen Daten möglicherweise nicht, wenn eine Backup-Option aktiviert ist.</string>
@@ -621,7 +624,7 @@
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die schönen Plattform-Icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS und SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Vielen Dank für das schöne PICO-8-Icon! 🙏</string>
-    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds wenn du durch deine Spielesammlung scrollst</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds, wenn du durch deine Spielesammlung scrollst</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gibt dir ein wohliges Retro-Gefühl, wenn du deine Spiele startest und verleiht den Warnungsdialogen mehr Bedeutung</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Für das schöne Discord-Icon (s.u.)</string>
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Plattform &amp; Emulator-Konfiguration</string>
@@ -675,7 +678,7 @@
     <string name="shared_ui_last_played_today">Heute</string>
     <string name="shared_ui_last_played_yesterday">Gestern</string>
     <string name="shared_ui_last_played_days_ago">Vor %1$s Tagen</string>
-    <string name="shared_ui_error_no_app_found_to_handle_action">Dein Gerät stellt keine App bereit um diese Aktion auszuführen</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Dein Gerät stellt keine App bereit, um diese Aktion auszuführen</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
