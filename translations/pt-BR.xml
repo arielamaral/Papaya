@@ -278,7 +278,7 @@
     <string name="settings_platforms_content_description_move_down">Mover para baixo</string>
 
     <!-- Settings - Platform options -->
-    <string name="settings_platform_options_menu_option_detect_new_games">Detectar novos jogos</string>
+    <string name="settings_platform_options_menu_option_detect_new_games">Detectar novos jogos e alterações</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Buscar capas e detalhes de jogos ausentes</string>
     <string name="settings_platform_options_menu_option_scrape_all">Buscar capas e detalhes de jogos todos</string>
     <string name="settings_platform_options_menu_option_appearance">Aparência</string>
@@ -357,6 +357,10 @@
     <string name="settings_appearance_general_setting_theme_color_option_green">Verde</string>
     <string name="settings_appearance_general_setting_theme_color_option_yellow">Amarelo</string>
     <string name="settings_appearance_general_setting_theme_color_option_purple">Roxo</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Laranja</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Verde-azulado</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Rosa</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Índigo</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_title">Cor do texto no plano de fundo</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automático</string>
     <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Preto</string>
@@ -379,9 +383,6 @@
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_theme_title">Tema</string>
-    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
-    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
-    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
     <string name="settings_appearance_layout_menu_theme_configuration_title">Configuração do tema</string>
     <string name="settings_appearance_layout_menu_gallery_type_title">Tipo</string>
     <string name="settings_appearance_layout_menu_gallery_type_touch">Toque</string>
