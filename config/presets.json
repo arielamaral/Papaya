@@ -383,7 +383,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amstradcpc"
+        }
+      }
     },
     {
       "key": "arc",
@@ -429,7 +434,12 @@
         {
           "type": "arduboy"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "arduboy"
+        }
+      }
     },
     {
       "key": "a26",
@@ -523,7 +533,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atari7800"
+        }
+      }
     },
     {
       "key": "jag",
@@ -922,7 +937,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "nes"
+        }
+      }
     },
     {
       "key": "neo",
@@ -968,7 +988,12 @@
             "bezel"
           ]
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "pico8"
+        }
+      }
     },
     {
       "key": "pce",
@@ -1008,7 +1033,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "pcengine"
+        }
+      }
     },
     {
       "key": "sgg",
@@ -1111,7 +1141,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "mastersystem"
+        }
+      }
     },
     {
       "key": "gen",
@@ -1163,7 +1198,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "megadrive"
+        }
+      }
     },
     {
       "key": "sat",
@@ -1760,6 +1800,11 @@
         "igdb": "41",
         "rawg": "10",
         "tgdb": "38"
+      },
+      "references": {
+        "esDe": {
+          "path": "wiiu"
+        }
       }
     },
     {
